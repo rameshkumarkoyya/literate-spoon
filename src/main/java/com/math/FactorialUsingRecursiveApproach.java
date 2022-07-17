@@ -11,11 +11,10 @@ public class FactorialUsingRecursiveApproach {
 	}
 	
 	private static int factorial(int numb) {
-		int result = 1;
 		if(numb == 0) {
-			return result;
+			return 1;
 		}
-		return result =  numb * factorial(numb - 1);
+		return numb * factorial(numb - 1);
 		
 	}
 
