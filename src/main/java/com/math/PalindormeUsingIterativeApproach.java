@@ -18,8 +18,8 @@ public class PalindormeUsingIterativeApproach {
 		int reverseNumb = 0;
 		int temp = actualNumber;
 		while (temp != 0) {
-			int digit = temp % 10;
-			reverseNumb = reverseNumb * 10 + digit;
+			int lastDigit = temp % 10;
+			reverseNumb = reverseNumb * 10 + lastDigit;
 			temp = temp / 10;
 		}
 		return actualNumber == reverseNumb;
