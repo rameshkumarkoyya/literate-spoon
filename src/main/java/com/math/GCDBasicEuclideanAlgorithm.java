@@ -3,7 +3,7 @@ package com.math;
 public class GCDBasicEuclideanAlgorithm {
 
 	public static void main(String args[]) {
-		int gcd = findGCDByEuclideanAlogirthm(15, 20);
+		int gcd = findGCDByEuclideanAlogirthm(15, 21);
 		System.out.println(gcd);
 	}
 

@@ -11,6 +11,7 @@ public class PalindormeUsingIterativeApproach {
 	 * To Find Each Digit from Last of the Actual Number using actualNumber%10; get
 	 * the last digit Update actual number by removing the last digit using
 	 * actualNumber = actualNumber/10;
+	 * reverseNumber = reverseNumber * 10 + digit;
 	 * 
 	 */
 
@@ -18,8 +19,8 @@ public class PalindormeUsingIterativeApproach {
 		int reverseNumb = 0;
 		int temp = actualNumber;
 		while (temp != 0) {
-			int lastDigit = temp % 10;
-			reverseNumb = reverseNumb * 10 + lastDigit;
+			int digit = temp % 10;
+			reverseNumb = reverseNumb * 10 + digit;
 			temp = temp / 10;
 		}
 		return actualNumber == reverseNumb;
