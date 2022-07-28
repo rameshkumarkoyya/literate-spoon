@@ -3,7 +3,7 @@ package com.math;
 public class PrimeFactorsNaiveApproach {
 
 	public static void main(String[] args) {
-		primeFactors(450);
+		primeFactors(7);
 	}
 
 	private static void primeFactors(int numb) {
